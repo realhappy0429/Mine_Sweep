@@ -1,0 +1,53 @@
+﻿  扫雷.cpp
+D:\csp\扫雷\扫雷\扫雷.cpp(83,3): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6):
+      可能是“void settextstyle(int,int,LPCTSTR)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(83,3):
+          “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const wchar_t [3]”转换为“LPCTSTR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(83,23):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\csp\扫雷\扫雷\扫雷.cpp(83,3):
+      尝试匹配参数列表“(int, int, const wchar_t [3])”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(84,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6):
+      可能是“void outtextxy(int,int,TCHAR)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(84,3):
+          “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const wchar_t [5]”转换为“TCHAR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(84,23):
+              没有使该转换得以执行的上下文
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6):
+      或    “void outtextxy(int,int,LPCTSTR)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(84,3):
+          “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const wchar_t [5]”转换为“LPCTSTR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(84,23):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\csp\扫雷\扫雷\扫雷.cpp(84,3):
+      尝试匹配参数列表“(int, int, const wchar_t [5])”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(85,3): error C2665: “settextstyle”: 没有重载函数可以转换所有参数类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(249,6):
+      可能是“void settextstyle(int,int,LPCTSTR)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(85,3):
+          “void settextstyle(int,int,LPCTSTR)”: 无法将参数 3 从“const wchar_t [3]”转换为“LPCTSTR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(85,23):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\csp\扫雷\扫雷\扫雷.cpp(85,3):
+      尝试匹配参数列表“(int, int, const wchar_t [3])”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(86,3): error C2665: “outtextxy”: 没有重载函数可以转换所有参数类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(226,6):
+      可能是“void outtextxy(int,int,TCHAR)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(86,3):
+          “void outtextxy(int,int,TCHAR)”: 无法将参数 3 从“const wchar_t [11]”转换为“TCHAR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(86,23):
+              没有使该转换得以执行的上下文
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(225,6):
+      或    “void outtextxy(int,int,LPCTSTR)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(86,3):
+          “void outtextxy(int,int,LPCTSTR)”: 无法将参数 3 从“const wchar_t [11]”转换为“LPCTSTR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(86,23):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\csp\扫雷\扫雷\扫雷.cpp(86,3):
+      尝试匹配参数列表“(int, int, const wchar_t [11])”时
+  

@@ -1,0 +1,43 @@
+﻿  扫雷.cpp
+D:\csp\扫雷\扫雷\扫雷.cpp(27,3): error C2665: “loadimage”: 没有重载函数可以转换所有参数类型
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\VS\include\easyx.h(258,6):
+      可能是“int loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+          D:\csp\扫雷\扫雷\扫雷.cpp(27,3):
+          “int loadimage(IMAGE *,LPCTSTR,int,int,bool)”: 无法将参数 2 从“char [50]”转换为“LPCTSTR”
+              D:\csp\扫雷\扫雷\扫雷.cpp(27,23):
+              指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      D:\csp\扫雷\扫雷\扫雷.cpp(27,3):
+      尝试匹配参数列表“(IMAGE *, char [50])”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(185,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [34]”转换为“LPCWSTR”
+      D:\csp\扫雷\扫雷\扫雷.cpp(185,16):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\mciapi.h(87,1):
+      参见“mciSendStringW”的声明
+      D:\csp\扫雷\扫雷\扫雷.cpp(185,2):
+      尝试匹配参数列表“(const char [34], int, int, int)”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(186,2): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [9]”转换为“LPCWSTR”
+      D:\csp\扫雷\扫雷\扫雷.cpp(186,16):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\mciapi.h(87,1):
+      参见“mciSendStringW”的声明
+      D:\csp\扫雷\扫雷\扫雷.cpp(186,2):
+      尝试匹配参数列表“(const char [9], int, int, int)”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(206,7): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [21]”转换为“LPCWSTR”
+      D:\csp\扫雷\扫雷\扫雷.cpp(206,29):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(9235,1):
+      参见“MessageBoxW”的声明
+      D:\csp\扫雷\扫雷\扫雷.cpp(206,7):
+      尝试匹配参数列表“(HWND, const char [21], const char [5], long)”时
+  
+D:\csp\扫雷\扫雷\扫雷.cpp(210,7): error C2664: “int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)”: 无法将参数 2 从“const char [19]”转换为“LPCWSTR”
+      D:\csp\扫雷\扫雷\扫雷.cpp(210,29):
+      指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winuser.h(9235,1):
+      参见“MessageBoxW”的声明
+      D:\csp\扫雷\扫雷\扫雷.cpp(210,7):
+      尝试匹配参数列表“(HWND, const char [19], const char [5], long)”时
+  
